@@ -1,5 +1,5 @@
 name: Game Issue
-description: Choose this if you''re having trouble with a game
+description: 'Choose this if you''re having trouble with a game'
 title: "[Game Issue]: "
 body:
   - type: input
@@ -20,14 +20,14 @@ body:
     id: game_log
     attributes:
       label: Game log
-      description: Upload the game''s log here, ideally with timestamps so we can see what''s happening when
+      description: 'Upload the game''s log here, ideally with timestamps so we can see what''s happening when'
     validations:
       required: true
   - type: textarea
     id: system_info
     attributes:
       label: System information
-      description: Run `inxi -SCGm` and copy the output into here
+      description: 'Run `inxi -SCGm` and copy the output into here'
     validations:
       required: true
   - type: input
