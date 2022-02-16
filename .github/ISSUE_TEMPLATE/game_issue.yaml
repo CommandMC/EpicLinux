@@ -1,6 +1,6 @@
 name: Game Issue
 description: 'Choose this if you''re having trouble with a game'
-title: "[Game Issue]: "
+title: "[Game Issue] "
 body:
   - type: input
     id: game_name
