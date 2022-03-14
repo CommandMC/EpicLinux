@@ -20,7 +20,7 @@ body:
     id: game_log
     attributes:
       label: Game log
-      description: 'Upload the game''s log to [Pastebin](https://pastebin.com/), [ControlC](https://controlc.com/) or similar sites, and paste the link into here
+      description: 'Upload the game''s log to [Pastebin](https://pastebin.com/), [ControlC](https://controlc.com/) or similar sites, and paste the link into here'
     validations:
       required: true
   - type: textarea
