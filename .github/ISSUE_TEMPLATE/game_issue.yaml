@@ -16,11 +16,11 @@ body:
       placeholder: 'ex. "The game doesn''t start"; "graphics are displayed wrong"... Please be detailed here'
     validations:
       required: true
-  - type: textarea
+  - type: input
     id: game_log
     attributes:
       label: Game log
-      description: 'Upload the game''s log here, ideally with timestamps so we can see what''s happening when'
+      description: 'Upload the game''s log to [Pastebin](https://pastebin.com/), [ControlC](https://controlc.com/) or similar sites, and paste the link into here
     validations:
       required: true
   - type: textarea
